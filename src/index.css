@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #fff;
+  font-family: "Nunito", sans-serif;
+}
+
+.text-title {
+  text-shadow: 0px 0px 10px #5cfaff, 0px 0px 20px #5cfaff, 0px 0px 40px #5cfaff,
+    0px 0px 80px #5cfaff;
+}
