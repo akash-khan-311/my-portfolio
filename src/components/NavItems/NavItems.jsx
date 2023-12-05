@@ -9,7 +9,7 @@ const NavItems = ({ label, adress }) => {
       className={({ isActive }) =>
         `flex justify-center px-4  py-2 my-1 uppercase  transition-colors duration-300 transform hover:bg-[#427d9d6e]  hover:text-white ${
           isActive
-            ? "bg-[#164863] text-white "
+            ? "bg-[#007BFF] text-white "
             : "text-black dark:text-gray-500 "
         }`
       }

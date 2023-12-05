@@ -30,7 +30,7 @@ const Root = () => {
       {/*  */}
       <div className="flex-1 md:ml-64 bg-white dark:bg-[#10121A] ">
         <div className="p-5">
-          <Outlet />
+          <Outlet theme={theme} />
         </div>
       </div>
       <div className="flex items-center bg-[#9BBEC8] dark:bg-[#164863] absolute top-32 right-0 overflow-hidden px-5 py-2 rounded-md ">

@@ -1,3 +1,5 @@
+const theme = localStorage.getItem("theme");
+
 const ParticlesConfig = {
   autoPlay: true,
 
@@ -5,7 +7,7 @@ const ParticlesConfig = {
     composite: "destination-out",
     cover: {
       color: {
-        value: "#fff",
+        value: theme === "dark" ? "#fff" : "#000",
       },
       opacity: 1,
     },
@@ -68,7 +70,7 @@ const ParticlesConfig = {
         distance: 100,
         duration: 1,
         mix: false,
-        opacity: 0.8,
+        opacity: 1,
         size: 10,
         divs: {
           distance: 200,
@@ -80,7 +82,7 @@ const ParticlesConfig = {
       connect: {
         distance: 80,
         links: {
-          opacity: 0.5,
+          opacity: 1,
         },
         radius: 60,
       },
@@ -176,7 +178,7 @@ const ParticlesConfig = {
       },
     },
     color: {
-      value: "#113946",
+      value: theme === "dark" ? "#fff" : "#000",
 
       animation: {
         h: {
@@ -306,7 +308,7 @@ const ParticlesConfig = {
     shadow: {
       blur: 0,
       color: {
-        value: "#fff",
+        value: theme === "dark" ? "#fff" : "#000",
       },
       enable: false,
       offset: {
@@ -413,17 +415,17 @@ const ParticlesConfig = {
     links: {
       blink: true,
       color: {
-        value: "#fff",
+        value: theme === "dark" ? "#fff" : "#000",
       },
       consent: true,
       distance: 150,
       enable: false,
       frequency: 1,
-      opacity: 0.4,
+      opacity: 1,
       shadow: {
         blur: 5,
         color: {
-          value: "#000",
+          value: theme === "dark" ? "#fff" : "#000",
         },
         enable: false,
       },
