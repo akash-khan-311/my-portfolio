@@ -1,8 +1,10 @@
 import PageTitle from "../../components/PageTitle/PageTitle";
+import WorkingExperince from "../../components/WorkingExperince/WorkingExperince";
 
 const Resume = () => {
   return (
     <div>
+      {/* Skills Section */}
       <section>
         <PageTitle title={"my skills"} />
         <div className="mt-32 lg:px-20 md:px-10 sm:px-5 px-0 space-y-5">
@@ -129,6 +131,60 @@ const Resume = () => {
               </div>
             </div>
           </div>
+        </div>
+      </section>
+      {/* Experience */}
+      <section>
+        <div className="flex items-center mt-32">
+          <p>
+            <svg
+              className="dark:fill-gray-400 fill-gray-900"
+              height="60"
+              width={"60"}
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+            >
+              <path d="M10 16v-1H3.01L3 19c0 1.11.89 2 2 2h14c1.11 0 2-.89 2-2v-4h-7v1h-4zm10-9h-4.01V5l-2-2h-4l-2 2v2H4c-1.1 0-2 .9-2 2v3c0 1.11.89 2 2 2h6v-2h4v2h6c1.1 0 2-.9 2-2V9c0-1.1-.9-2-2-2zm-6 0h-4V5h4v2z" />
+            </svg>
+          </p>
+
+          <h2 className=" font-semibold text-3xl md:text-4xl lg:text-5xl text-gray-900 dark:text-gray-400">
+            Working Experience
+          </h2>
+        </div>
+        <div className="mt-32 lg:px-20 md:px-10 sm:px-5 px-0">
+          <ol className="relative border-s dark:border-[#5cfaff] border-gray-500">
+            {/* first */}
+            <WorkingExperince
+              date={"December | 2019"}
+              title={"CPA (Cost Per Action) - Marketing"}
+              description={` In my brief exposure to CPA Marketing, I garnered $50 in
+                earnings. However, I have decided to shift my focus away from
+                CPA Marketing, recognizing that it is not aligned with my
+                long-term professional goals. I am committed to pursuing
+                opportunities that better resonate with my skills and
+                aspirations`}
+            />
+
+            {/* second */}
+            <WorkingExperince
+              date={"February | 2021"}
+              title={"WordPress Developer"}
+              description={` I have dedicated three months of professional engagement with a
+                reputable company, where my responsibilities primarily centered
+                around WordPress development. This experience has equipped me
+                with a proficient skill set and a comprehensive understanding of
+                WordPress, further strengthening my expertise in the platform.`}
+            />
+
+            {/* Third */}
+            <WorkingExperince
+              date={"September"}
+              title={"Food Panda Rider"}
+              description={`
+            I have served as a Delivery Specialist with Foodpanda from 2021 to 2023 in Dhaka, demonstrating a commitment to timely and efficient delivery services. This experience has cultivated my skills in logistics, time management, and customer satisfaction within a dynamic urban environment.`}
+            />
+          </ol>
         </div>
       </section>
     </div>

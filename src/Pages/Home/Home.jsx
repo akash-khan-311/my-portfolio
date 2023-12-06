@@ -51,23 +51,9 @@ const Home = () => {
         </h2>
         <div className="text-center flex flex-col justify-center text-black dark:text-gray-400 text-xl">
           <p>
-            <TypeAnimation
-              splitter={(str) => str.split(/(?= )/)} // 'Lorem ipsum dolor' -> ['Lorem', ' ipsum', ' dolor']
-              sequence={[
-                `I'm always open to new opportunities, collaborations, and discussions
+            {`I'm always open to new opportunities, collaborations, and discussions
         about the exciting possibilities in the world of web development.Whether you're a fellow developer, potential collaborator, or someone
-        with a shared passion for innovation, I'd love to connect.`,
-                18000,
-                "",
-                `My journey in the realm of technology began with a curiosity to understand how things work under the hood. Over the years, I've honed my skills in MongoDB, Express.js, React.js, and Node.js—the MERN stack—transforming ideas into functional and user-friendly digital experiences.`,
-                18000,
-                `I believe in the power of technology to make a positive impact on people's lives. Each line of code I write is fueled by a desire to create solutions that are not just functional but also intuitive and delightful for users.`,
-                15000,
-              ]}
-              speed={{ type: "keyStrokeDelayInMs", value: 30 }}
-              omitDeletionAnimation={true}
-              repeat={Infinity}
-            />
+        with a shared passion for innovation, I'd love to connect.`}
           </p>
         </div>
         <SocialContact />
