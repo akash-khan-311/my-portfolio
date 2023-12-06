@@ -5,6 +5,7 @@ import Particles from "react-tsparticles";
 import { loadSlim } from "tsparticles-slim";
 import ParticlesConfig from "../../components/ParticlesBg/ParticlesConfig";
 import { TypeAnimation } from "react-type-animation";
+import MyBtn from "../../components/MyBtn/MyBtn";
 
 const Home = () => {
   const particlesInit = useCallback(async (engine) => {
@@ -70,6 +71,12 @@ const Home = () => {
           </p>
         </div>
         <SocialContact />
+        <MyBtn
+          adress={
+            "https://drive.google.com/u/0/uc?id=1pp_yaZWTGE5D64XM1_HmdJeJ867LUHAc&export=download"
+          }
+          text={"Download  resume "}
+        />
       </div>
     </div>
   );

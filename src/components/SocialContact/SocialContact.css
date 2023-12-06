@@ -1,0 +1,60 @@
+/* for all social containers*/
+.socialContainer {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  border: 1px solid gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition-duration: 0.3s;
+}
+/* facbook*/
+.containerOne:hover {
+  background-color: #0556b0;
+  transition-duration: 0.3s;
+  border: none;
+}
+/* github*/
+.containerTwo:hover {
+  background-color: rgb(133, 91, 91);
+  transition-duration: 0.3s;
+}
+/* linkdin*/
+.containerThree:hover {
+  background-color: #0072b1;
+  transition-duration: 0.3s;
+}
+/* Whatsapp*/
+
+.socialContainer:active {
+  transform: scale(0.9);
+  transition-duration: 0.3s;
+}
+
+.socialSvg {
+  width: 25px;
+}
+
+/* .socialSvg path {
+  fill: rgb(255, 255, 255);
+} */
+
+.socialContainer:hover .socialSvg {
+  animation: slide-in-top 0.3s both;
+  -webkit-animation: slide-in-top 0.3s both;
+  fill: white;
+}
+
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

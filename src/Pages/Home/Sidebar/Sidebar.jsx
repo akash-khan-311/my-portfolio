@@ -12,9 +12,9 @@ const Sidebar = () => {
   return (
     <>
       {/* Small Screen Menu */}
-      <div className=" flex justify-end md:hidden bg-white dark:bg-[#10121A]">
+      <div className="menu dark:bg-[#10121A]">
         <button
-          className=" p-4 focus:outline-none text-[#427D9D]"
+          className="mobile-menu-button p-4 focus:outline-none text-[#427D9D]"
           onClick={handleToggle}
         >
           <AiOutlineBars className="h-10 w-10" />
@@ -25,7 +25,7 @@ const Sidebar = () => {
       <div
         className={`z-10 sm:fixed  flex flex-col justify-between overflow-x-hidden overflow-y-hidden w-72 space-y-6 px-2 py-4 absolute border-r inset-y-0 left-0 transform bg-[#e4e4e433] dark:bg-[#191D2B] ${
           isActive && "-translate-x-full"
-        }  md:translate-x-0  transition duration-200 ease-in-out ${!isActive}`}
+        }  xl:translate-x-0  transition duration-200 ease-in-out`}
       >
         <div>
           <div className="w-full flex px-4 py-5  justify-center items-center bg-rose-100 mx-auto border-b border-gray-600 dark:border-[#5cfaff]">

@@ -11,3 +11,16 @@ body {
   text-shadow: 0px 0px 10px #5cfaff, 0px 0px 20px #5cfaff, 0px 0px 40px #5cfaff,
     0px 0px 80px #5cfaff;
 }
+
+.menu {
+  position: absolute;
+  right: 5%;
+  top: 3%;
+  display: none;
+  z-index: 15;
+}
+@media screen and (max-width: 1140px) {
+  .menu {
+    display: block;
+  }
+}
