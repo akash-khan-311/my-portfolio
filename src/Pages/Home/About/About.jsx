@@ -52,7 +52,12 @@ const About = () => {
                   </div>
                 </div>
                 <div className="mt-5">
-                  <MyBtn text={"download resume"} />
+                  <MyBtn
+                    adress={
+                      "https://drive.google.com/u/0/uc?id=1pp_yaZWTGE5D64XM1_HmdJeJ867LUHAc&export=download"
+                    }
+                    text={"download resume"}
+                  />
                 </div>
               </div>
             </div>
