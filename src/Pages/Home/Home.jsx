@@ -21,26 +21,26 @@ const Home = () => {
     await console.log(container);
   }, []);
 
-
   return (
     <div>
-    
-      <Particles
-        id="tsparticles"
-        init={particlesInit}
-        loaded={particlesLoaded}
-        options={ParticlesConfig}
-      />
+      <div className="z-0">
+        <Particles
+          id="tsparticles"
+          init={particlesInit}
+          loaded={particlesLoaded}
+          options={ParticlesConfig}
+        />
+      </div>
       <div className="text-center  min-h-screen flex flex-col justify-center items-center max-w-4xl mx-auto space-y-4 ">
         <h2 className="text-black dark:text-white text-6xl lg:text-7xl font-semibold">
-          {"Hi, I'm"}
+          {"Hi, I'm "}
           <span className="text-[#007BFF]">
             <TypeAnimation
               sequence={[
                 // Same substring at the start will only be typed once, initially
                 "Akash Khan",
                 2000,
-                "React Developer",
+                "React JS Developer",
                 2000,
                 "",
                 2000,

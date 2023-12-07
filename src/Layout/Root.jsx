@@ -31,7 +31,7 @@ const Root = () => {
       <Sidebar />
       {/*  */}
       <div className="flex-1 xl:ml-64 bg-[#e9e9fc] dark:bg-[#10121A] ">
-        <div className=" container mx-auto  p-14">
+        <div className=" container mx-auto  xl:p-20 lg:p-10 md:p-8 p-5  ">
           <Outlet />
         </div>
       </div>
