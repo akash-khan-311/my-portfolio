@@ -152,8 +152,8 @@ const Resume = () => {
             Working Experience
           </h2>
         </div>
-        <div className="mt-32 lg:px-20 md:px-10 sm:px-5 px-0">
-          <ol className="relative border-s dark:border-[#5cfaff] border-gray-500">
+        <div className="mt-32 lg:px-20 md:px-10 sm:px-5 px-0 ">
+          <ol className="relative border-s dark:border-[#5cfaff] border-gray-500 ">
             {/* first */}
             <WorkingExperince
               date={"December | 2019"}
@@ -179,7 +179,7 @@ const Resume = () => {
 
             {/* Third */}
             <WorkingExperince
-              date={"September"}
+              date={"September | 2021"}
               title={"Food Panda Rider"}
               description={`
             I have served as a Delivery Specialist with Foodpanda from 2021 to 2023 in Dhaka, demonstrating a commitment to timely and efficient delivery services. This experience has cultivated my skills in logistics, time management, and customer satisfaction within a dynamic urban environment.`}

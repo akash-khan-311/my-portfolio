@@ -20,17 +20,20 @@ const Home = () => {
   const particlesLoaded = useCallback(async (container) => {
     await console.log(container);
   }, []);
+
+
   return (
     <div>
+    
       <Particles
         id="tsparticles"
         init={particlesInit}
         loaded={particlesLoaded}
         options={ParticlesConfig}
       />
-      <div className="text-center  min-h-screen flex flex-col justify-center items-center max-w-4xl mx-auto space-y-4">
+      <div className="text-center  min-h-screen flex flex-col justify-center items-center max-w-4xl mx-auto space-y-4 ">
         <h2 className="text-black dark:text-white text-6xl lg:text-7xl font-semibold">
-          {"Hi, I'm"}{" "}
+          {"Hi, I'm"}
           <span className="text-[#007BFF]">
             <TypeAnimation
               sequence={[

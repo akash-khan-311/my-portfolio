@@ -40,8 +40,8 @@ const About = () => {
                     <p>Full Name</p>
                     <p>Age</p>
                     <p>Nationality</p>
-                    <p>Languages</p>
-                    <p>Localtion</p>
+                    <p>Language</p>
+                    <p>Location</p>
                   </div>
                   <div className="info md:text-xl space-y-3 text-left">
                     <p>: Md Akash Khan</p>

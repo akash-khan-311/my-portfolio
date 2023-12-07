@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 const WorkingExperince = ({ date, title, description }) => {
   return (
-    <li className="mb-10 ms-4">
+    <li className="mb-10 ms-4 py-6 md:py-10 lg:py-14 xl:py-16">
       <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border dark:border-[#5cfaff] border-gray-500 dark:bg-[#5cfaff]" />
       <time className="mb-1 text-lg  leading-none text-black font-semibold dark:text-white">
         {date}

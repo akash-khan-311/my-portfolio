@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { AiOutlineBars } from "react-icons/ai";
+import { GiHamburgerMenu } from "react-icons/gi";
 import NavItems from "../../../components/NavItems/NavItems";
 import myPhoto from "../../../assets/Images/myPhoto.jpg";
 
@@ -12,18 +12,18 @@ const Sidebar = () => {
   return (
     <>
       {/* Small Screen Menu */}
-      <div className="menu dark:bg-[#10121A]">
+      <div className="menu ">
         <button
-          className="mobile-menu-button p-4 focus:outline-none text-[#427D9D]"
+          className="mobile-menu-button p-4 focus:outline-none text-[#427D9D] fixed top-0 right-5"
           onClick={handleToggle}
         >
-          <AiOutlineBars className="h-10 w-10" />
+          <GiHamburgerMenu className="h-10 w-10" />
         </button>
       </div>
 
       {/* sidebar */}
       <div
-        className={`z-10 sm:fixed  flex flex-col justify-between overflow-x-hidden overflow-y-hidden w-72 space-y-6 px-2 py-4 absolute border-r inset-y-0 left-0 transform bg-[#e9e9fc] dark:bg-[#191D2B] ${
+        className={`z-10 fixed  flex flex-col justify-between overflow-x-hidden overflow-y-hidden w-72 space-y-6 px-2 py-4  border-r inset-y-0 left-0 transform bg-white dark:bg-[#191D2B] ${
           isActive && "-translate-x-full"
         }  xl:translate-x-0  transition duration-200 ease-in-out`}
       >
@@ -40,14 +40,34 @@ const Sidebar = () => {
 
         {/* Nav Items */}
 
-        <div className="flex flex-col   mt-6 ">
+        <div className="flex flex-col  ">
           <nav className="text-center  ">
-            <NavItems label={"Home"} adress={"/"} />
-            <NavItems label={"About"} adress={"/about"} />
-            <NavItems label={"resume"} adress={"/resume"} />
-            <NavItems label={"Projects"} adress={"/projects"} />
-            <NavItems label={"Blogs"} adress={"/blogs"} />
-            <NavItems label={"contact"} adress={"/Contact"} />
+            <NavItems handleToggle={handleToggle} label={"Home"} address={"/"} />
+            <NavItems
+              handleToggle={handleToggle}
+              label={"About"}
+              address={"/about"}
+            />
+            <NavItems
+              handleToggle={handleToggle}
+              label={"My Skills"}
+              address={"/skills"}
+            />
+            <NavItems
+              handleToggle={handleToggle}
+              label={"Projects"}
+              address={"/projects"}
+            />
+            <NavItems
+              handleToggle={handleToggle}
+              label={"Blogs"}
+              address={"/blogs"}
+            />
+            <NavItems
+              handleToggle={handleToggle}
+              label={"contact"}
+              address={"/Contact"}
+            />
           </nav>
         </div>
         <div>

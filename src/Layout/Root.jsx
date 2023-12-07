@@ -23,12 +23,14 @@ const Root = () => {
     }
   };
 
+
+
   return (
     <div className="relative min-h-screen md:flex">
       {/* Sidebar */}
       <Sidebar />
       {/*  */}
-      <div className="flex-1 xl:ml-64 bg-white dark:bg-[#10121A] ">
+      <div className="flex-1 xl:ml-64 bg-[#e9e9fc] dark:bg-[#10121A] ">
         <div className=" container mx-auto  p-14">
           <Outlet />
         </div>
