@@ -1,9 +1,13 @@
+import { Helmet } from "react-helmet-async";
 import PageTitle from "../../components/PageTitle/PageTitle";
 import WorkingExperince from "../../components/WorkingExperince/WorkingExperince";
 
 const Resume = () => {
   return (
     <div>
+       <Helmet>
+        <title>Akash Khan | My Skills</title>
+      </Helmet>
       {/* Skills Section */}
       <section>
         <PageTitle title={"my skills"} />

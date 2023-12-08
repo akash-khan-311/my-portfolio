@@ -66,7 +66,7 @@ const Sidebar = () => {
             <NavItems
               handleToggle={handleToggle}
               label={"contact"}
-              address={"/Contact"}
+              address={"/contact"}
             />
           </nav>
         </div>

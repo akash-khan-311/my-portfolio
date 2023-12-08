@@ -3,6 +3,7 @@ import myPhoto from "../../../assets/Images/myPhoto.jpg";
 import MyBtn from "../../../components/MyBtn/MyBtn";
 import { useEffect, useState } from "react";
 import ServiceCard from "../../../components/ServiceCard/ServiceCard";
+import { Helmet } from "react-helmet-async";
 
 const About = () => {
   const [services, setServices] = useState([]);
@@ -13,6 +14,9 @@ const About = () => {
   }, []);
   return (
     <div>
+        <Helmet>
+        <title>Akash Khan | About</title>
+      </Helmet>
       <section>
         <PageTitle title={"About me"} />
         <div className="min-h-screen flex justify-center items-center">

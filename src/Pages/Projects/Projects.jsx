@@ -4,6 +4,7 @@ import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
 import './Project.css'
 import PageTitle from "../../components/PageTitle/PageTitle";
+import { Helmet } from "react-helmet-async";
 
 const Projects = () => {
   const category = useParams();
@@ -28,6 +29,9 @@ const Projects = () => {
 
   return (
     <div className="">
+       <Helmet>
+        <title>Akash Khan | Projects</title>
+      </Helmet>
       <PageTitle title={'portfolios'}/>
      <div className="text-gray-100 dark:text-white mt-32">
      <Tabs  defaultIndex={tabIndex} onSelect={(index)=> setTabIndex(index)}>

@@ -6,6 +6,7 @@ import { loadSlim } from "tsparticles-slim";
 import ParticlesConfig from "../../components/ParticlesBg/ParticlesConfig";
 import { TypeAnimation } from "react-type-animation";
 import MyBtn from "../../components/MyBtn/MyBtn";
+import { Helmet } from "react-helmet-async";
 
 const Home = () => {
   const particlesInit = useCallback(async (engine) => {
@@ -23,6 +24,9 @@ const Home = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>Akash Khan | Home</title>
+      </Helmet>
       <div className="z-0">
         <Particles
           id="tsparticles"
