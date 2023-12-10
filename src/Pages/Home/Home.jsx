@@ -48,7 +48,7 @@ const Home = () => {
                 2000,
                 "Front End Developer",
                 2000,
-                "MERN Stack Developer",
+                "Junior MERN Stack Developer",
                 2000,
               ]}
               speed={50}
@@ -66,7 +66,7 @@ const Home = () => {
         <SocialContact />
         <MyBtn
           text={"Download  resume "}
-          url={'https://drive.google.com/u/0/uc?id=1trUxXvStzWmGEum0e3-zhgYqy7Xy8OYl&export=download'}
+          url={'https://drive.google.com/u/0/uc?id=1F3fKs0orsAleoYISvDx8nfMQdq9PtQ1g&export=download'}
         />
       </div>
     </div>

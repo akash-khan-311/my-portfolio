@@ -70,7 +70,7 @@ const About = () => {
                 <div className="mt-5">
                   <MyBtn
                     url={
-                      "https://drive.google.com/u/0/uc?id=1trUxXvStzWmGEum0e3-zhgYqy7Xy8OYl&export=download"
+                      "https://drive.google.com/u/0/uc?id=1F3fKs0orsAleoYISvDx8nfMQdq9PtQ1g&export=download"
                     }
                     text={"download resume"}
                   />
