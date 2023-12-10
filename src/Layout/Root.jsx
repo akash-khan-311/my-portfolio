@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 
 const Root = () => {
   const [theme, setTheme] = useState(
-    localStorage.getItem("theme") ? localStorage.getItem("theme") : "light"
+    localStorage.getItem("theme") ? localStorage.getItem("theme") : "dark"
   );
 
   useEffect(() => {
@@ -30,7 +30,7 @@ const Root = () => {
       {/* Sidebar */}
       <Sidebar />
       {/*  */}
-      <div className="flex-1 xl:ml-64 bg-[#e9e9fc] dark:bg-[#10121A]  duration-300">
+      <div className="flex-1 xl:ml-64 bg-[#e9e9fc] dark:bg-[#10121A]  duration-300 overflow-x-hidden overflow-y-hidden">
         <div className=" container mx-auto  xl:p-20 lg:p-10 md:p-8 p-5  ">
           <Outlet />
         </div>

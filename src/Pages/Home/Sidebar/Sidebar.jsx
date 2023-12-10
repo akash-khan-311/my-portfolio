@@ -73,7 +73,7 @@ const Sidebar = () => {
         <div>
           <hr />
           <p className="text-black dark:text-white text-center py-3 flex justify-center items-center">
-            © 2021 | <b> Akash Khan</b>
+            © 2021 | <b> Akash Ali</b>
           </p>
         </div>
       </div>

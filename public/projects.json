@@ -28,24 +28,6 @@
     },
     {
         "id": 4,
-        "name": "ph tube",
-        "image":"https://i.postimg.cc/3NY37MMn/phtube.png",
-        "live_link": "https://phvideo-tube.netlify.app",
-        "code_link": "https://github.com/akash-khan-311/ph-tube",
-        "category": "javascript",
-        "description": "A JavaScript-powered video tube app, enabling users to explore and enjoy a diverse range of videos in a user-friendly and engaging online environment."
-    },
-    {
-        "id": 5,
-        "name": "summer sale",
-        "image":"https://i.postimg.cc/gjsm2Mmd/summer.png",
-        "live_link": "https://as-summer-sale.netlify.app",
-        "code_link": "https://github.com/akash-khan-311/summer-sale",
-        "category": "javascript",
-        "description": "JavaScript-driven summer sale platform, providing an immersive shopping experience with dynamic content and features to enhance the user's online retail journey."
-    },
-    {
-        "id": 6,
         "name": "digital clock",
         "image":"https://i.postimg.cc/gjHk6zyC/digital.png",
         "live_link": "https://digital-clock-akash-khan.netlify.app/",
@@ -53,17 +35,9 @@
         "category": "javascript",
         "description": "A JavaScript-based digital clock web app, offering users a reliable and visually appealing timekeeping solution with customizable features for a personalized experience."
     },
+    
     {
-        "id": 7,
-        "name": "ak bank",
-        "image":"https://i.postimg.cc/nhzcCtXW/ak-bank.png",
-        "live_link": "https://luxury-dieffenbachia-bdad20.netlify.app/",
-        "code_link": "https://github.com/akash-khan-311/Ak-Bank",
-        "category": "javascript",
-        "description": "JavaScript-powered online banking platform, providing users with a secure and efficient interface to manage their financial transactions and accounts with ease."
-    },
-    {
-        "id": 8,
+        "id": 5,
         "name": "as career hub",
         "image":"https://i.postimg.cc/J0LznDX3/as-career.png",
         "live_link": "https://as-career-hub.netlify.app",
@@ -72,7 +46,7 @@
         "description": "A React-based career hub, connecting professionals with opportunities, resources, and insights to facilitate career growth and exploration in a dynamic online environment."
     },
     {
-        "id": 9,
+        "id": 6,
         "name": "as programming",
         "image":"https://i.postimg.cc/02Cbzfcz/programming.png",
         "live_link": "https://as-programming-courses.netlify.app/",
@@ -81,7 +55,7 @@
         "description": "A React-based platform offering programming courses, providing a comprehensive learning experience with diverse modules, projects, and real-world applications for aspiring developers."
     },
     {
-        "id": 10,
+        "id": 7,
         "name": "money master",
         "image":"https://i.postimg.cc/4NX3Rcss/money.png",
         "live_link": "https://akash-khan-311.github.io/money-master/",
@@ -90,25 +64,7 @@
         "description": "JavaScript-driven financial management app, empowering users to master their finances through intuitive features, insightful analytics, and personalized budgeting tools."
     },
     {
-        "id": 11,
-        "name": "soft fruit brust",
-        "image":"https://i.postimg.cc/YqXtcydz/soft.png",
-        "live_link": "https://akash-khan-311.github.io/soft-fruit-brust/",
-        "code_link": "https://github.com/akash-khan-311/soft-fruit-brust",
-        "category": "css",
-        "description": "CSS-based fruit bursting game, offering players a delightful and engaging experience with vibrant visuals, smooth animations, and a responsive design for seamless gameplay."
-    },
-    {
-        "id": 12,
-        "name": "sa tea shop",
-        "image":"https://i.postimg.cc/PqvXQzzz/sa.png",
-        "live_link": "https://akash-khan-311.github.io/sa-tea-shop/",
-        "code_link": "https://github.com/akash-khan-311/sa-tea-shop",
-        "category": "css",
-        "description": "CSS-based tea shop website, presenting a visually appealing and interactive platform for tea enthusiasts to explore and discover a variety of exquisite tea blends."
-    },
-    {
-        "id": 13,
+        "id": 8,
         "name": "Tajam",
         "image":"https://i.postimg.cc/FH8mzk5f/tajam.png",
         "live_link": "https://intructory.netlify.app/",
@@ -117,7 +73,7 @@
         "description": "A CSS-centric introductory website, showcasing creative design elements and interactive features to leave a lasting impression on visitors exploring the web with an aesthetic touch."
     },
     {
-        "id": 14,
+        "id": 9,
         "name": "influencer studio",
         "image":"https://i.postimg.cc/tCD4qg4P/influe.png",
         "live_link": "https://akash-khan-311.github.io/influencer-studio/",
@@ -126,7 +82,7 @@
         "description": "CSS-driven influencer studio website, offering a visually captivating and user-friendly platform for influencers to showcase their portfolios and connect with potential collaborators."
     },
     {
-        "id": 15,
+        "id": 10,
         "name": "search food",
         "image":"https://i.postimg.cc/ZYxTHq3g/search.png",
         "live_link": "https://akash-khan-311.github.io/search-food-api/",
@@ -135,7 +91,7 @@
         "description": "JavaScript-based food search app, allowing users to explore and discover a wide range of culinary delights with a seamless and intuitive interface for a delightful food exploration experience."
     },
     {
-        "id": 16,
+        "id": 11,
         "name": "bd tiger football club",
         "image":"https://i.postimg.cc/c1RJzhqF/bd-tiger.png",
         "live_link": "https://pensive-torvalds-7a5813.netlify.app",

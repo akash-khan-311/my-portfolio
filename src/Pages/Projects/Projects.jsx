@@ -30,7 +30,7 @@ const Projects = () => {
   return (
     <div className="">
        <Helmet>
-        <title>Akash Khan | Projects</title>
+        <title>Akash Ali | Projects</title>
       </Helmet>
       <PageTitle title={'portfolios'}/>
      <div className="text-gray-100 dark:text-white mt-32">

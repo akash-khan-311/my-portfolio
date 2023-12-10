@@ -25,7 +25,7 @@ const Home = () => {
   return (
     <div>
       <Helmet>
-        <title>Akash Khan | Home</title>
+        <title>Akash Ali | Home</title>
       </Helmet>
       <div className="z-0">
         <Particles
@@ -35,18 +35,18 @@ const Home = () => {
           options={ParticlesConfig}
         />
       </div>
-      <div className="text-center  min-h-screen flex flex-col justify-center items-center max-w-4xl mx-auto space-y-4 ">
+      <div className="text-center min-h-[90vh] flex flex-col justify-center items-center max-w-4xl mx-auto space-y-4 ">
         <h2 className="text-black dark:text-white text-6xl lg:text-7xl font-semibold">
           {"Hi, I'm "}
           <span className="text-[#007BFF]">
             <TypeAnimation
               sequence={[
                 // Same substring at the start will only be typed once, initially
-                "Akash Khan",
+                "Md Akash Ali",
                 2000,
                 "React JS Developer",
                 2000,
-                "",
+                "Front End Developer",
                 2000,
                 "MERN Stack Developer",
                 2000,
@@ -65,10 +65,8 @@ const Home = () => {
         </div>
         <SocialContact />
         <MyBtn
-          adress={
-            "https://drive.google.com/u/0/uc?id=1pp_yaZWTGE5D64XM1_HmdJeJ867LUHAc&export=download"
-          }
           text={"Download  resume "}
+          url={'https://drive.google.com/u/0/uc?id=1trUxXvStzWmGEum0e3-zhgYqy7Xy8OYl&export=download'}
         />
       </div>
     </div>

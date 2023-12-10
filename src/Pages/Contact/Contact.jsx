@@ -15,12 +15,18 @@ const Contact = () => {
   return (
     <div>
       <Helmet>
-        <title>Akash Khan | Contact</title>
+        <title>Akash Ali | Contact</title>
       </Helmet>
       <PageTitle title={"Contact"} />
       <div className="mt-32 gap-5 flex flex-col lg:flex-row justify-between items-center ">
         {/* contact form */}
-        <div className="lg:w-1/2 w-full ">
+        <div
+          data-aos="fade-up"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          className="lg:w-1/2 w-full "
+        >
           <h2 className="text-black dark:text-white text-4xl font-semibold">
             Get In Touch
           </h2>
@@ -190,7 +196,12 @@ const Contact = () => {
         {/* contact info */}
         <div className="lg:w-1/2 w-full">
           {/* phone */}
-          <div>
+          <div
+            data-aos="fade-down"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+          >
             <ContactInfo
               subTitle={"(+880) 1719-981 150 "}
               title={"Phone"}
@@ -198,7 +209,13 @@ const Contact = () => {
             />
           </div>
           {/* Email */}
-          <div className="my-10">
+          <div
+            data-aos="fade-down"
+            data-aos-delay="500"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            className="my-10"
+          >
             <ContactInfo
               title={"Email"}
               subTitle={" akashkhanbdinto@gmail.com "}
@@ -206,7 +223,12 @@ const Contact = () => {
             />
           </div>
           {/* Address */}
-          <div>
+          <div
+            data-aos="fade-down"
+            data-aos-delay="700"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+          >
             <ContactInfo
               title={"Address"}
               subTitle={"Nobinogor, Mohammadpur, Dhaka Bangladesh"}

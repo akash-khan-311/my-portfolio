@@ -5,8 +5,8 @@ import WorkingExperince from "../../components/WorkingExperince/WorkingExperince
 const Resume = () => {
   return (
     <div>
-       <Helmet>
-        <title>Akash Khan | My Skills</title>
+      <Helmet>
+        <title>Akash Ali | My Skills</title>
       </Helmet>
       {/* Skills Section */}
       <section>
@@ -15,7 +15,12 @@ const Resume = () => {
           {/* first */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-10 space-y-5 lg:space-y-0">
             {/* Html */}
-            <div>
+            <div
+              data-aos="fade-down"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+            >
               <div className="mb-1  font-medium dark:text-white uppercase text-lg">
                 html5
               </div>
@@ -34,7 +39,12 @@ const Resume = () => {
               </div>
             </div>
             {/* css */}
-            <div>
+            <div
+              data-aos="fade-down"
+              data-aos-delay="500"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+            >
               <div className="mb-1  font-medium dark:text-white uppercase text-lg">
                 CSS3
               </div>
@@ -56,7 +66,12 @@ const Resume = () => {
           {/* Second */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-10 space-y-5 lg:space-y-0">
             {/* Javascript */}
-            <div>
+            <div
+              data-aos="fade-down"
+              data-aos-delay="1000"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+            >
               <div className="mb-1  font-medium dark:text-white uppercase text-lg">
                 JavaScript
               </div>
@@ -75,7 +90,12 @@ const Resume = () => {
               </div>
             </div>
             {/* react js */}
-            <div>
+            <div
+              data-aos="fade-down"
+              data-aos-delay="1500"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+            >
               <div className="mb-1  font-medium dark:text-white uppercase text-lg">
                 react js
               </div>
@@ -97,7 +117,12 @@ const Resume = () => {
           {/* Third */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-10 space-y-5 lg:space-y-0">
             {/* Node js */}
-            <div>
+            <div
+              data-aos="fade-down"
+              data-aos-delay="2000"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+            >
               <div className="mb-1  font-medium dark:text-white uppercase text-lg">
                 node js
               </div>
@@ -116,7 +141,12 @@ const Resume = () => {
               </div>
             </div>
             {/* wordpress */}
-            <div>
+            <div
+              data-aos="fade-down"
+              data-aos-delay="2500"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+            >
               <div className="mb-1  font-medium dark:text-white uppercase text-lg">
                 wordpress
               </div>
@@ -159,35 +189,57 @@ const Resume = () => {
         <div className="mt-32 lg:px-20 md:px-10 sm:px-5 px-0 ">
           <ol className="relative border-s dark:border-[#5cfaff] border-gray-500 ">
             {/* first */}
-            <WorkingExperince
-              date={"December | 2019"}
-              title={"CPA (Cost Per Action) - Marketing"}
-              description={` In my brief exposure to CPA Marketing, I garnered $50 in
+
+            <div
+              data-aos="fade-down"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+            >
+              <WorkingExperince
+                date={"December | 2019"}
+                title={"CPA (Cost Per Action) - Marketing"}
+                description={` In my brief exposure to CPA Marketing, I garnered $50 in
                 earnings. However, I have decided to shift my focus away from
                 CPA Marketing, recognizing that it is not aligned with my
                 long-term professional goals. I am committed to pursuing
                 opportunities that better resonate with my skills and
                 aspirations`}
-            />
+              />
+            </div>
 
             {/* second */}
-            <WorkingExperince
-              date={"February | 2021"}
-              title={"WordPress Developer"}
-              description={` I have dedicated three months of professional engagement with a
+            <div
+              data-aos="fade-down"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+            >
+              <WorkingExperince
+                date={"February | 2021"}
+                title={"WordPress Developer"}
+                description={` I have dedicated three months of professional engagement with a
                 reputable company, where my responsibilities primarily centered
                 around WordPress development. This experience has equipped me
                 with a proficient skill set and a comprehensive understanding of
                 WordPress, further strengthening my expertise in the platform.`}
-            />
+              />
+            </div>
 
             {/* Third */}
-            <WorkingExperince
-              date={"September | 2021"}
-              title={"Food Panda Rider"}
-              description={`
+            <div
+              data-aos="fade-down"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+            >
+              <WorkingExperince
+                date={"September | 2021"}
+                title={"Food Panda Rider"}
+                description={`
             I have served as a Delivery Specialist with Foodpanda from 2021 to 2023 in Dhaka, demonstrating a commitment to timely and efficient delivery services. This experience has cultivated my skills in logistics, time management, and customer satisfaction within a dynamic urban environment.`}
-            />
+              />
+            </div>
           </ol>
         </div>
       </section>

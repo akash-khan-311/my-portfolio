@@ -4,7 +4,13 @@ import "./PageTitle.css";
 
 const PageTitle = ({ title }) => {
   return (
-    <div className="max-w-5xl mx-auto ">
+    <div
+      data-aos="flip-down"
+      data-aos-delay="0"
+      data-aos-duration="1000"
+      data-aos-easing="ease-in-out"
+      className="max-w-5xl mx-auto "
+    >
       <h1 className="text-3xl md:text-4xl lg:text-5xl uppercase text-black dark:text-white font-bold title relative">
         {title}
         {/* <Progress

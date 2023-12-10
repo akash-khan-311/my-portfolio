@@ -5,7 +5,7 @@ const Blogs = () => {
   return (
     <div>
       <Helmet>
-        <title>Akash Khan | Blogs</title>
+        <title>Akash Ali | Blogs</title>
       </Helmet>
       <PageTitle title={"blogs coming soon"} />
     </div>
