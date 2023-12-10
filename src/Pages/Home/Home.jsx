@@ -38,7 +38,7 @@ const Home = () => {
       <div className="text-center min-h-[90vh] flex flex-col justify-center items-center max-w-4xl mx-auto space-y-4 ">
         <h2 className="text-black dark:text-white text-6xl lg:text-7xl font-semibold">
           {"Hi, I'm "}
-          <span className="text-[#007BFF]">
+          <span className="text-[#C23373]">
             <TypeAnimation
               sequence={[
                 // Same substring at the start will only be typed once, initially

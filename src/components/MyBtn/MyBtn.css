@@ -24,7 +24,7 @@
 }
 
 .btn svg rect {
-  stroke: #007bff;
+  stroke: #F31559;
   stroke-width: 4;
   stroke-dasharray: 353, 0;
   stroke-dashoffset: 0;
@@ -33,7 +33,7 @@
 }
 
 .btn span {
-  color: #007bff;
+  color: #F31559;
 }
 
 .btn:hover svg rect {

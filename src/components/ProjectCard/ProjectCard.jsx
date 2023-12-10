@@ -27,7 +27,7 @@ function ProjectCard({ project }) {
                 href={code_link}
                 target="_blank"
                 rel="noreferrer"
-                className="cursor-pointer text-xl underline text-blue-800 font-bold"
+                className="cursor-pointer text-xl underline text-[#F31559] font-bold"
               >
                 Code Link
               </a>
@@ -35,7 +35,7 @@ function ProjectCard({ project }) {
                 href={live_link}
                 target="_blank"
                 rel="noreferrer"
-                className="cursor-pointer text-xl underline text-blue-800 font-bold "
+                className="cursor-pointer text-xl underline text-[#F31559] font-bold "
               >
                 Live Link
               </a>

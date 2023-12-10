@@ -43,7 +43,7 @@ const About = () => {
                 className="lg:flex-grow lg:flex-1 w-full  lg:pl-5 pl-0 flex flex-col lg:items-start lg:text-left items-center text-center"
               >
                 <h1 className="text-4xl text-black dark:text-white">
-                  I am <span className="text-[#007BFF]">Akash Ali</span>
+                  I am <span className="text-[#F31559]">Akash Ali</span>
                 </h1>
                 <p className="mb-8 leading-relaxed text-gray-800 dark:text-white text-sm lg:text-lg">
                   {`I believe in the power of technology to make a positive impact

@@ -36,11 +36,11 @@ const Projects = () => {
      <div className="text-gray-100 dark:text-white mt-32">
      <Tabs  defaultIndex={tabIndex} onSelect={(index)=> setTabIndex(index)}>
         <TabList className="flex justify-center flex-wrap gap-5 mb-32">
-          <Tab className="text-xl bg-blue-gray-600 px-7 py-2 rounded-sm cursor-pointer hover:bg-[#007BFF] duration-300 outline-none ">ALL</Tab>
-          <Tab className="text-xl bg-blue-gray-600 px-7 py-2 rounded-sm cursor-pointer hover:bg-[#007BFF] duration-300 outline-none ">CSS</Tab>
-          <Tab className="text-xl bg-blue-gray-600 px-7 py-2 rounded-sm cursor-pointer hover:bg-[#007BFF] duration-300 outline-none ">JAVASCRIPT</Tab>
-          <Tab className="text-xl bg-blue-gray-600 px-7 py-2 rounded-sm cursor-pointer hover:bg-[#007BFF] duration-300 outline-none ">REACT JS</Tab>
-          <Tab className="text-xl bg-blue-gray-600 px-7 py-2 rounded-sm cursor-pointer hover:bg-[#007BFF] duration-300 outline-none ">NODE JS</Tab>
+          <Tab className="text-xl bg-blue-gray-600 px-7 py-2 rounded-sm cursor-pointer hover:bg-[#f3155862] duration-300 outline-none ">ALL</Tab>
+          <Tab className="text-xl bg-blue-gray-600 px-7 py-2 rounded-sm cursor-pointer hover:bg-[#f3155862] duration-300 outline-none ">CSS</Tab>
+          <Tab className="text-xl bg-blue-gray-600 px-7 py-2 rounded-sm cursor-pointer hover:bg-[#f3155862] duration-300 outline-none ">JAVASCRIPT</Tab>
+          <Tab className="text-xl bg-blue-gray-600 px-7 py-2 rounded-sm cursor-pointer hover:bg-[#f3155862] duration-300 outline-none ">REACT JS</Tab>
+          <Tab className="text-xl bg-blue-gray-600 px-7 py-2 rounded-sm cursor-pointer hover:bg-[#f3155862] duration-300 outline-none ">NODE JS</Tab>
         </TabList>
 
         <TabPanel>

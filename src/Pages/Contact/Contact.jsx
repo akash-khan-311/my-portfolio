@@ -185,7 +185,11 @@ const Contact = () => {
                   </label>
                 </div>
                 <div className="mt-10">
-                  <Button type="submit" color="blue" className="w-full">
+                  <Button
+                    type="submit"
+                    color=""
+                    className="w-full bg-[#F31559]"
+                  >
                     Submit
                   </Button>
                 </div>

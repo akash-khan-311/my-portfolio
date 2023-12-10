@@ -14,7 +14,7 @@ const Sidebar = () => {
       {/* Small Screen Menu */}
       <div className="menu ">
         <button
-          className="mobile-menu-button p-4 focus:outline-none text-[#427D9D] fixed top-0 right-5"
+          className="mobile-menu-button p-4 focus:outline-none text-[#F31559] fixed top-0 right-5"
           onClick={handleToggle}
         >
           <GiHamburgerMenu className="h-10 w-10" />
@@ -28,10 +28,10 @@ const Sidebar = () => {
         }  xl:translate-x-0  transition duration-200 ease-in-out`}
       >
         <div>
-          <div className="w-full flex px-4 py-5  justify-center items-center bg-rose-100 mx-auto border-b border-gray-600 dark:border-[#5cfaff]">
+          <div className="w-full flex px-4 py-5  justify-center items-center bg-rose-100 mx-auto border-b border-gray-600 dark:border-[#F31559]">
             <img
               src={myPhoto}
-              className="rounded-full w-48  p-1 bg-gray-400 dark:bg-[#5cfaff]"
+              className="rounded-full w-48  p-1 bg-gray-400 dark:bg-[#F31559]"
               alt=""
             />
           </div>
@@ -73,7 +73,7 @@ const Sidebar = () => {
         <div>
           <hr />
           <p className="text-black dark:text-white text-center py-3 flex justify-center items-center">
-            © 2021 | <b> Akash Ali</b>
+            © 2023 | <b>  Akash Ali</b>
           </p>
         </div>
       </div>

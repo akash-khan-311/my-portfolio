@@ -9,7 +9,7 @@ const ParticlesConfig = {
       }
     },
     color: {
-      value: '#B0A695',
+      value: '#F31559',
     },
     fullScreen: {
       enable: true,
