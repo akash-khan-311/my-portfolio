@@ -3,7 +3,7 @@ import PageTitle from "../../components/PageTitle/PageTitle";
 
 const Blogs = () => {
   return (
-    <div>
+    <div className="min-h-[100vh]">
       <Helmet>
         <title>Akash Ali | Blogs</title>
       </Helmet>

@@ -32,7 +32,7 @@ const Resume = () => {
                 </p>
                 <div className="w-full bg-gray-200 rounded-full h-1.5 mb-4 dark:bg-gray-700">
                   <div
-                    className="bg-blue-600 h-1.5 rounded-full dark:bg-blue-500"
+                    className="bg-[#F31559] h-1.5 rounded-full dark:bg-[#F31559]"
                     style={{ width: "85%" }}
                   />
                 </div>
@@ -56,7 +56,7 @@ const Resume = () => {
                 </p>
                 <div className="w-full bg-gray-200 rounded-full h-1.5 mb-4 dark:bg-gray-700">
                   <div
-                    className="bg-blue-600 h-1.5 rounded-full dark:bg-blue-500"
+                    className="bg-[#F31559] h-1.5 rounded-full dark:bg-[#F31559]"
                     style={{ width: "85%" }}
                   />
                 </div>
@@ -83,7 +83,7 @@ const Resume = () => {
                 </p>
                 <div className="w-full bg-gray-200 rounded-full h-1.5 mb-4 dark:bg-gray-700">
                   <div
-                    className="bg-blue-600 h-1.5 rounded-full dark:bg-blue-500"
+                    className="bg-[#F31559] h-1.5 rounded-full dark:bg-[#F31559]"
                     style={{ width: "70%" }}
                   />
                 </div>
@@ -107,7 +107,7 @@ const Resume = () => {
                 </p>
                 <div className="w-full bg-gray-200 rounded-full h-1.5 mb-4 dark:bg-gray-700">
                   <div
-                    className="bg-blue-600 h-1.5 rounded-full dark:bg-blue-500"
+                    className="bg-[#F31559] h-1.5 rounded-full dark:bg-[#F31559]"
                     style={{ width: "72%" }}
                   />
                 </div>
@@ -134,7 +134,7 @@ const Resume = () => {
                 </p>
                 <div className="w-full bg-gray-200 rounded-full h-1.5 mb-4 dark:bg-gray-700">
                   <div
-                    className="bg-blue-600 h-1.5 rounded-full dark:bg-blue-500"
+                    className="bg-[#F31559] h-1.5 rounded-full dark:bg-[#F31559]"
                     style={{ width: "30%" }}
                   />
                 </div>
@@ -158,7 +158,7 @@ const Resume = () => {
                 </p>
                 <div className="w-full bg-gray-200 rounded-full h-1.5 mb-4 dark:bg-gray-700">
                   <div
-                    className="bg-blue-600 h-1.5 rounded-full dark:bg-blue-500"
+                    className="bg-[#F31559] h-1.5 rounded-full dark:bg-[#F31559]"
                     style={{ width: "40%" }}
                   />
                 </div>
@@ -172,7 +172,7 @@ const Resume = () => {
         <div className="flex items-center mt-32">
           <p>
             <svg
-              className="dark:fill-gray-400 fill-gray-900"
+              className="dark:fill-[#F31559] fill-[#F31559]"
               height="60"
               width={"60"}
               viewBox="0 0 24 24"

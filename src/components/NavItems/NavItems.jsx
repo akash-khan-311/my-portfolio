@@ -8,7 +8,7 @@ const NavItems = ({ label, address, handleToggle }) => {
       end
       onClick={handleToggle}
       className={({ isActive }) =>
-        `flex justify-center px-4  py-2 my-1 uppercase  transition-colors duration-300 transform hover:bg-[#f315583d]  hover:text-white ${
+        `flex justify-center px-4  py-2 my-1 uppercase  transition-colors duration-300 transform hover:bg-[#f3155852]  hover:text-white ${
           isActive
             ? "bg-[#F31559] text-white "
             : "text-black dark:text-gray-500 "

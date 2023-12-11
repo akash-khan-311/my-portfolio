@@ -36,7 +36,7 @@ const Root = () => {
         </div>
       </div>
       <div className="fixed right-0 top-1/3">
-        <div className="flex items-center bg-[#9bbec87a] dark:bg-[#16486367] absolute top-32 right-0 overflow-hidden px-5 py-2 rounded-md ">
+        <div className="flex items-center bg-[#f3155852] dark:bg-[#f3155852] absolute top-32 right-0 overflow-hidden px-5 py-2 rounded-md ">
           <FaGear className="text-2xl text-blue-gray-800 dark:text-white mr-3  animate-spin" />
           <div>
             <label className="switch ">

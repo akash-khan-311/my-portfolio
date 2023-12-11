@@ -215,7 +215,7 @@ const Contact = () => {
           {/* Email */}
           <div
             data-aos="fade-down"
-            data-aos-delay="500"
+            data-aos-delay="50"
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"
             className="my-10"
@@ -229,7 +229,7 @@ const Contact = () => {
           {/* Address */}
           <div
             data-aos="fade-down"
-            data-aos-delay="700"
+            data-aos-delay="50"
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"
           >
