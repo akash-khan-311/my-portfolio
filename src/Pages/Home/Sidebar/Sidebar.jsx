@@ -2,7 +2,7 @@ import { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import NavItems from "../../../components/NavItems/NavItems";
 
-import myPhoto from "../../../assets/Images/myPhoto.jpg";
+import myPhoto from "../../../assets/Images/myPhoto.png";
 
 const Sidebar = () => {
   const [isActive, setIsActive] = useState(true);
@@ -32,7 +32,7 @@ const Sidebar = () => {
           <div className="w-full flex px-4 py-5  justify-center items-center bg-rose-100 mx-auto border-b border-b-pink-500  dark:border-[#F31559]">
             <img
               src={myPhoto}
-              className="rounded-full h-48 w-48  p-1 bg-gray-400 dark:bg-[#F31559]"
+              className="rounded-full   p-1 h-48 w-48"
               alt=""
             />
           </div>
