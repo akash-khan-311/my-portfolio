@@ -1,9 +1,10 @@
 import PageTitle from "../../../components/PageTitle/PageTitle";
-import myPhoto from "../../../assets/Images/myPhoto.jpg";
+
 import MyBtn from "../../../components/MyBtn/MyBtn";
 import { useEffect, useState } from "react";
 import ServiceCard from "../../../components/ServiceCard/ServiceCard";
 import { Helmet } from "react-helmet-async";
+import myPhoto from "../../../assets/Images/me.jpg";
 
 const About = () => {
   const [services, setServices] = useState([]);
@@ -27,10 +28,10 @@ const About = () => {
                 data-aos-delay="0"
                 data-aos-duration="1000"
                 data-aos-easing="ease-in-out"
-                className="md:w-full lg:w-1/2 w-full mb-10 lg:mb-0"
+                className="md:w-full lg:w-1/2 w-full h-[600px] mb-10 lg:mb-0"
               >
                 <img
-                  className="object-cover object-center rounded"
+                  className="object-cover object-center rounded h-full mx-auto w-5/6  "
                   alt="Akash Ali"
                   src={myPhoto}
                 />
