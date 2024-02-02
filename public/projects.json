@@ -98,5 +98,15 @@
         "code_link": "https://github.com/akash-khan-311/The-Team-Of-Football",
         "category": "css",
         "description": "CSS-powered website for the BD Tiger Football Club, offering fans and enthusiasts a visually appealing platform to stay updated on team news, events, and highlights in a dynamic online environment."
+    },
+    {
+        "id": 12,
+        "name": "Score Board",
+        "image":"https://i.ibb.co/vdZ9W5F/scoreboard.png",
+        "live_link": "https://akash-khan-311.github.io/score-board/",
+        "code_link": "https://github.com/akash-khan-311/score-board",
+        "category": "javascript",
+        "description": "The Score Board Web Application is a user-friendly and interactive platform created using HTML, CSS, and JavaScript, designed to manage and display scores for various matches. The application provides a simple and intuitive interface for users to input score increments and decrements, add new matches, and reset the total score."
     }
 ]
+
