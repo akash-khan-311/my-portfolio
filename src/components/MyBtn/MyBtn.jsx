@@ -4,7 +4,7 @@ import "./MyBtn.css";
 const MyBtn = ({ text,  url }) => {
   return (
     <div>
-      <a href={url ? url : '#'} className="btn">
+      <a download={url ? url : '#'} href={url ? url : '#'} className="btn">
         <svg width={277} height={62}>
           <defs>
             <linearGradient id="grad1">

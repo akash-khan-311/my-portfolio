@@ -66,7 +66,7 @@ const Home = () => {
         <SocialContact />
         <MyBtn
           text={"Download  resume "}
-          url={'https://drive.google.com/u/0/uc?id=1F3fKs0orsAleoYISvDx8nfMQdq9PtQ1g&export=download'}
+          url={'https://drive.google.com/file/d/1m3frPyxeDbTXSLw6kjEwmn9B7x2I_oKI/view'}
         />
       </div>
     </div>
