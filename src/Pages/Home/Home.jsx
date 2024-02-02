@@ -44,7 +44,7 @@ const Home = () => {
                 // Same substring at the start will only be typed once, initially
                 "Md Akash Ali",
                 2000,
-                "React JS Developer",
+                "Junior React JS Developer",
                 2000,
                 "Front End Developer",
                 2000,
