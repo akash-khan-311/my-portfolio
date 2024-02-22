@@ -1,10 +1,11 @@
+/* eslint-disable react/no-unescaped-entities */
 import PageTitle from "../../../components/PageTitle/PageTitle";
 
-import MyBtn from "../../../components/MyBtn/MyBtn";
 import { useEffect, useState } from "react";
-import ServiceCard from "../../../components/ServiceCard/ServiceCard";
 import { Helmet } from "react-helmet-async";
 import myPhoto from "../../../assets/Images/me.jpg";
+import MyBtn from "../../../components/MyBtn/MyBtn";
+import ServiceCard from "../../../components/ServiceCard/ServiceCard";
 
 const About = () => {
   const [services, setServices] = useState([]);
@@ -44,7 +45,7 @@ const About = () => {
                 className="lg:flex-grow lg:flex-1 w-full  lg:pl-5 pl-0 flex flex-col lg:items-start lg:text-left items-center text-center"
               >
                 <h1 className="text-4xl text-black dark:text-white">
-                  I am <span className="text-[#F31559]">Akash Ali</span>
+                  I'm <span className="text-[#F31559]">Akash Khan</span>
                 </h1>
                 <p className="mb-8 leading-relaxed text-gray-800 dark:text-white text-sm lg:text-lg">
                   {`I believe in the power of technology to make a positive impact
@@ -61,7 +62,7 @@ const About = () => {
                     <p>Location</p>
                   </div>
                   <div className="info md:text-xl space-y-3 text-left">
-                    <p>: Md Akash Ali</p>
+                    <p>: Md Akash Khan</p>
                     <p>: 23</p>
                     <p>: Bangladeshi</p>
                     <p>: Bengali, English</p>

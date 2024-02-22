@@ -1,16 +1,15 @@
-import SocialContact from "../../components/SocialContact/SocialContact";
 import { useCallback } from "react";
 import Particles from "react-tsparticles";
+import SocialContact from "../../components/SocialContact/SocialContact";
 //import { loadFull } from "tsparticles"; // if you are going to use `loadFull`, install the "tsparticles" package too.
-import { loadSlim } from "tsparticles-slim";
-import ParticlesConfig from "../../components/ParticlesBg/ParticlesConfig";
-import { TypeAnimation } from "react-type-animation";
-import MyBtn from "../../components/MyBtn/MyBtn";
 import { Helmet } from "react-helmet-async";
+import { TypeAnimation } from "react-type-animation";
+import { loadSlim } from "tsparticles-slim";
+import MyBtn from "../../components/MyBtn/MyBtn";
+import ParticlesConfig from "../../components/ParticlesBg/ParticlesConfig";
 
 const Home = () => {
   const particlesInit = useCallback(async (engine) => {
-    console.log(engine);
     // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
     // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
     // starting from v2 you can add only the features you need reducing the bundle size
@@ -42,7 +41,7 @@ const Home = () => {
             <TypeAnimation
               sequence={[
                 // Same substring at the start will only be typed once, initially
-                "Md Akash Ali",
+                "Md Akash Khan",
                 2000,
                 "Junior React JS Developer",
                 2000,
@@ -66,7 +65,9 @@ const Home = () => {
         <SocialContact />
         <MyBtn
           text={"Download  resume "}
-          url={'https://drive.google.com/file/d/1m3frPyxeDbTXSLw6kjEwmn9B7x2I_oKI/view'}
+          url={
+            "https://drive.google.com/file/d/1GAQSbX13q8uMU5jpCCBVxMBosDHRAbsm/view?usp=sharing"
+          }
         />
       </div>
     </div>
