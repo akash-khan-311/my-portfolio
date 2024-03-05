@@ -66,7 +66,7 @@ const Home = () => {
         <MyBtn
           text={"Download  resume "}
           url={
-            "https://drive.google.com/file/d/1GAQSbX13q8uMU5jpCCBVxMBosDHRAbsm/view?usp=sharing"
+            "https://drive.google.com/file/d/1LLF9oi7djADx4qeEHxS6S6wktKJcCeKL/view?usp=sharing"
           }
         />
       </div>
